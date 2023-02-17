@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Allerta+Stencil&family=Bebas+Neue&family=Caveat&family=Monoton&family=Saira+Condensed:wght@500&family=Secular+One&display=swap" rel="stylesheet">
+</head>
+<body>
+ <div id="main">
+     <h1>Rock Paper Scissors</h1>
+     <div id="user-s" class="board">User Score Board</div>
+     <span id="user-score">0</span>
+     <div id="comp-s" class="board">Computer Score Board</div>
+     <span id="comp-score">0</span>
+     <p class="msg">Take You're Self Off...</p>
+     <div class="choices">
+        <div class="choice">
+         <img onclick="Rock()" id="r" class="rps" src="rock-paper-scissors-icon-24.jpg" alt="paper">
+        </div>
+        <div class="choice">
+         <img onclick="Paper()" id="p" class="rps" src="rock-paper-scissors-icon-23.jpg" alt="paper">
+        </div>
+        <div class="choice">
+         <img onclick="Scissor()" id="s" class="rps" src="rock-paper-scissors-icon-22.jpg" alt="paper">
+        </div>
+     </div>
+     <div>
+        <p id="result">"Rock,Paper,Scissors,Shoot!!!"</p>
+     </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>

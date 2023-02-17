@@ -1,0 +1,127 @@
+body{
+    background-image: url("Rock\ Paper\ Scissor\ Icon.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 30px;
+}
+#main{
+    position: relative;
+    top: 30px;
+    margin: auto;
+    padding: 10px;
+    background-color: rgb(216, 167, 167);
+    opacity: 0.8;
+    height: 520px;
+    width: 820px;
+    font-family: 'Allerta Stencil', sans-serif;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Caveat', cursive;
+    font-family: 'Monoton', cursive;
+    font-family: 'Saira Condensed', sans-serif;
+    font-family: 'Secular One', sans-serif;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px 10px;
+}
+h1{
+    margin: 10px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    letter-spacing: 15px;  
+    font-weight: bold;  
+}
+#user-s{
+    font-weight: bold;
+    border: 3px solid rgb(0, 0, 0);
+    border-radius: 4px;
+    margin: 20px auto;
+    text-align: center;
+    width: 200px;
+    padding: 10px 20px;
+    position: relative;
+    right: 250px;
+}
+#comp-s{
+    font-weight: bold;
+    border: 3px solid rgb(0, 0, 0);
+    border-radius: 4px;
+    margin: 20px auto;
+    text-align: center;
+    width: 200px;
+    padding: 10px 20px;
+    position: relative;
+    left: 250px;
+    bottom: 115px;
+}
+#user-score{
+    border: 3px solid rgb(0, 0, 0);
+    color: #0057e7;
+    font-weight: bold;
+    border-radius: 60px;
+    margin: 20px auto;
+    text-align: center;
+    width: 200px;
+    padding: 10px 20px;
+    position: relative;
+    left: 260px;
+    bottom: 10px;
+}
+#comp-score{
+    color: #0057e7;
+    font-weight: bold;
+    border: 3px solid rgb(0, 0, 0);
+    border-radius: 60px;
+    margin: 20px auto;
+    text-align: center;
+    width: 200px;
+    padding: 10px 20px;
+    position: relative;
+    left: 500px;
+    bottom:125px ;
+}
+.msg{
+    font-size: 17px;
+    font-weight: bold;
+    color:#ffffff;
+    position: relative;
+    left: 305px;
+    bottom: 215px;
+    background-color: rgb(211, 138, 138);
+    width: 185px;
+    border-radius: 9px;
+    padding: 7px;
+    border: 3px solid rgba(194, 122, 100, 0.486);
+}
+.rps{
+    height: 110px;
+    width: 110px;
+    border-radius: 50%;
+    
+}
+.choices{
+    text-align: center;
+    size: 10px;
+}
+.choice{
+    border: 5px solid rgb(255, 255, 255);
+    border-radius: 20px;
+    display: inline-block;
+    border-radius: 50%;
+    margin: 0 25px;
+   box-shadow: 10px 15px 20px 1px rgb(53, 23, 23);
+    position: relative;
+    bottom: 140px;
+    cursor: pointer;
+    transition: all 0.4s ease;
+}
+.choice:hover{ 
+    background: rgb(255, 211, 249);
+    transform: scale(1.2);
+}
+#result{
+    font-size: 30px;
+    color:#851e3e;
+    position: relative;
+    bottom: 110px;
+    text-align: center;
+    font-weight: bold;
+}
